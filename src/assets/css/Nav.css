@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 20px;
+    /* sticky allows the navbar to stick to the top */
+    position: sticky;
+    top: 0;
+    /* this z-index of 100 to ensure the navbar is on top */
+    z-index: 100;
+    /* adding a background color will hide the background when nav is on top */
+    /* background-color: white; */
+    border-bottom: 1px solid lightgray;
+}

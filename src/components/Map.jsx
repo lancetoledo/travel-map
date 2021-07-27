@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import * as parkData from "../data/skateboard-parks.json";
+import * as parkData from "../data/travel-locations.json";
 
 import "../assets/css/Map.css"
 function Map() {
@@ -69,6 +69,7 @@ function Map() {
               <div>
                 <h2>{selectedPark.properties.NAME}</h2>
                 <p>{selectedPark.properties.DESCRIPTIO}</p>
+                {selectedPark.properties.PICTURE_LI}
 
               </div>
               

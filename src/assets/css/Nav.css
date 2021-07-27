@@ -12,4 +12,5 @@
     /* adding a background color will hide the background when nav is on top */
     /* background-color: white; */
     border-bottom: 1px solid lightgray;
+    background-color: white;
 }
